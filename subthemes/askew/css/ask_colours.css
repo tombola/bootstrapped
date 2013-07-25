@@ -1,0 +1,12 @@
+#navbar {
+  background-color: #3097b5;
+}
+.navbar-inner {
+  background-color: #3097b5;
+  background: #3097b5;
+  border: 10px solid black;
+}
+
+.navbar .brand {
+  color: #fff;
+}
