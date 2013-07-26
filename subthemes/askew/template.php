@@ -3,8 +3,14 @@
 /**
  * Override or insert variables into the html template.
  */
-function bootstriped_preprocess_html(&$variables) {
+function askew_preprocess_html(&$variables) {
   drupal_add_css('http://fonts.googleapis.com/css?family=Quicksand|Raleway|Open+Sans:400,800', array('type' => 'external'));
+  $roles = user_roles();
+  if(is_array($roles)) {
+    foreach ($roles as $item) {
+       $variables['classes_array'][] = "role-".strtolower(drupal_clean_css_identifier($item));
+    }
+  }
 }
 
 /**

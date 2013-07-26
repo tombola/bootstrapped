@@ -1,0 +1,53 @@
+/* admin interface */
+.nav {
+  margin-bottom: 10px;
+}
+#admin-menu-search {
+  display:none;
+}
+.drag-previous {
+  background-color: #d4f1bc;
+}
+.book-helper-sync-processed{
+  display:none;
+}
+.my-workbench {
+  margin-left: -20px;
+}
+div.admin {
+padding-top: 0;
+}
+.tabledrag-toggle-weight-wrapper,
+.field-type-image thead,
+.control-group.form-item-field-image-und-0-title {
+  display:none;
+}
+.control-group.form-type-managed-file{
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+.form-type-managed-file .form-file {
+  line-height: 0;
+}
+.form-type-managed-file .help-block {
+  font-size: .8em;
+}
+#block-views-critical-comments-block-1, .greyed-out {
+  opacity: 0.2;
+}
+#block-views-critical-comments-block-1:hover, .greyed-out:hover {
+  opacity: 1;
+}
+#admin-hide:hover, #admin-show:hover {
+  cursor: pointer;
+}
+.ds-2col-stacked input {
+  width: 95%;
+}
+#page-node-form .fieldset-legend {
+  text-align: right;
+}
+#edit-body-und-0-format-help, .filter-guidelines {
+  display:none;
+}
+/* end admin interface */
