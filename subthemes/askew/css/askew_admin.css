@@ -1,4 +1,9 @@
-/* admin interface */
+body.role-editor .vertical-tabs {
+  display:none;
+}
+
+
+/* admin interface (from lib)*/
 .nav {
   margin-bottom: 10px;
 }
